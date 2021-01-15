@@ -1,2 +1,2 @@
 # RestfulAPI
-This project represents a restful API made with NodeJS, ExpressJS &amp; MongoDB
+## this project was created to learn more about REST and Restful services, NodeJS, ExpressJS and MongoDB 
