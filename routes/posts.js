@@ -27,7 +27,7 @@ try{
    const savedPost = await post.save();
     res.json(savedPost);
 }catch(err){
-    res.json({message:'error'});
+    res.json({message:err});
 }
 });
 

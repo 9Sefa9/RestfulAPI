@@ -23,3 +23,12 @@ mongoose.connect(process.env.DB_CONNECTION_URL,
 
 //boot up the server:
 app.listen(3000);
+
+//frontend access be like: 
+/*
+(async ()=>{
+  const data = await fetch('http://localhost:3000/posts');
+  const result = await data.json();
+  console.log(result);
+})();
+*/
